@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/outfit');
+
+body {
+    background-color: #D5E1EF;
+    /* position: relative; */
+}
+
+.center-box {
+    background-color: #FFFFFF;
+    /* width: 320px;
+    height: 500px; */
+    width: 290px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 5%);
+}
+
+.qr-code #qr-code-img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 20px;
+}
+
+.caption {
+    font-family: "Outfit";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: hsl(216, 15%, 48%);
+    text-align: center;
+    /* margin-top: 24px; */
+    margin-bottom: 40px;
+    margin: 20px;
+}
+
+.attribution {
+    font-family: "Outfit";
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
